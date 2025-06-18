@@ -8,11 +8,12 @@ group :extras do
 end
 
 gem 'thin' # needed by qless-web binary
+gem 'erubis'
 
 group :development do
-  gem 'byebug', :platforms => [:ruby_20, :ruby_21]
+  gem 'byebug', :platforms => [:ruby_20, :ruby_21, :ruby_22]
   gem 'pry'
-  gem 'pry-byebug', :platforms => [:ruby_20, :ruby_21]
+  gem 'pry-byebug', :platforms => [:ruby_20, :ruby_21, :ruby_22]
   gem 'pry-stack_explorer'
-  gem 'cane', :platforms => [:ruby_20, :ruby_21]
+  gem 'cane', :platforms => [:ruby_20, :ruby_21, :ruby_22]
 end
