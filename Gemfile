@@ -7,7 +7,7 @@ group :extras do
   gem 'debugger', :platform => :mri_19
 end
 
-gem 'thin' # needed by qless-web binary
+gem 'thin' , '>= 1.6.0' # needed by qless-web binary
 
 group :development do
   gem 'byebug', :platforms => [:ruby_20, :ruby_21]
